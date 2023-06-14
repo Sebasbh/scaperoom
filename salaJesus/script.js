@@ -6,6 +6,7 @@ function verificarCodigo() {
 
     if (codigoIngresado.length === codigoCorrecto.length && codigoIngresado.every((color, index) => color === codigoCorrecto[index])) {
         mostrarMensaje("¡Código correcto!");
+        window.location.pathname = "/pruebasebas/Index.html";
     } else {
         mostrarMensaje("Código incorrecto. Intenta nuevamente.");
     }
