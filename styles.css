@@ -1,59 +1,59 @@
 body {
-  background-color: #f2f2f2;
-  text-align: center;
-  font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 #game-container {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
-#code-panel {
-  margin-bottom: 20px;
+#Panel-color {
+    margin-bottom: 20px;
 }
 
 .color-button {
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-  border: none;
-  cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 #rojo {
-  background-color: red;
+    background-color: red;
 }
 
 #negro {
-  background-color: green;
+    background-color: green;
 }
 
 #azul {
-  background-color: orange;
+    background-color: orange;
 }
 
 #amarillo {
-  background-color: palevioletred;
+    background-color: palevioletred;
 }
 
 #code-input {
-  padding: 10px;
-  margin-right: 10px;
+    padding: 10px;
+    margin-right: 10px;
 }
 
 #submit-button {
-  padding: 10px 20px;
-  background-color: #333;
-  color: white;
-  border: none;
-  cursor: pointer;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
-#message {
-  margin-top: 20px;
-  font-weight: bold;
+#mensaje {
+    margin-top: 20px;
+    font-weight: bold;
 }

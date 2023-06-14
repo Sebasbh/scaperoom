@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>JesCab-Room</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
-    <h1>¿Que ha pasado con los colores?</h1>
-    <p>Escribe en orden los colores que vez en pantalla para pasar al siguiente nivel</p>
-    <div id="game-container">
-      <div id="code-panel">
-        <button class="color-button" id="rojo"></button>
-        <button class="color-button" id="negro"></button>
-        <button class="color-button" id="azul"></button>
-        <button class="color-button" id="amarillo"></button>
-      </div>
-      <input type="text" id="code-input" placeholder="Ej: rojo azul azul rojo" />
-      <button id="submit-button">Enviar</button>
-      <p id="message"></p>
-    </div>
-    <div id="sequence-display"></div>
+</head>
 
+<body>
+    <h1>¿Que ha pasado con los colores?</h1>
+    <p>
+        Escribe en orden los colores que vez en pantalla para pasar al siguiente
+        nivel
+    </p>
+    <div id="game-container">
+        <div id="Panel-color">
+            <button class="color-button" id="rojo"></button>
+            <button class="color-button" id="negro"></button>
+            <button class="color-button" id="azul"></button>
+            <button class="color-button" id="amarillo"></button>
+        </div>
+        <input type="text" id="code-input" placeholder="Ej: rojo azul azul rojo" />
+        <button id="submit-button">Enviar</button>
+        <p id="mensaje"></p>
+    </div>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
