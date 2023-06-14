@@ -1,0 +1,16 @@
+.doors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Agregamos esta línea para centrar verticalmente */
+  }
+  
+  .boton {
+    height: 300px; /* Reducimos la altura para que quepa mejor en la pantalla */
+    width: 300px; /* Reducimos el ancho para que quepa mejor en la pantalla */
+    margin: 10px;
+  }
+  
+  #question-form {
+    margin-top: 20px;
+  }
